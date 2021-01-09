@@ -11,7 +11,7 @@ Many features in it include syntax highlight, auto-complete, in-editor documents
 
 # Why Fork?
 
-The [upstream repo] seems to be left unmaintained and there was compatibility issue with `raynigon.nginx-formatter` extension because the upstream projects used `NGINX` as language id while the formatter extension uses `nginx` and therefore it's not possible to use both extensions on the same file
+The [upstream repo][upstream-repo] seems to be left unmaintained and there was compatibility issue with `raynigon.nginx-formatter` extension because the upstream projects used `NGINX` as language id while the formatter extension uses `nginx` and therefore it's not possible to use both extensions on the same file
 
 ## Installation
 
