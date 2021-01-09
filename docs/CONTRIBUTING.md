@@ -91,5 +91,5 @@ yarn run test:web-ext
 ```
 
 
-[issues]: https://github.com/hangxingliu/vscode-nginx-conf-hint/issues
-[pr]: https://github.com/hangxingliu/vscode-nginx-conf-hint/pulls
+[issues]: https://github.com/ahmadalli/vscode-nginx-conf-hint/issues
+[pr]: https://github.com/ahmadalli/vscode-nginx-conf-hint/pulls

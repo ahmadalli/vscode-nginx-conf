@@ -1,6 +1,6 @@
 {
-	"name": "vscode-nginx-conf-hint",
-	"displayName": "nginx.conf hint",
+	"name": "vscode-nginx-conf",
+	"displayName": "NGINX Configuration Language Support",
 	"description": "Nginx configuration helper for Visual Studio Code with many features including syntax highlight, auto-complete, in-editor documents, embedded Lua block, and more",
 	"version": "0.3.1",
 	"license": "GPL-3.0",
@@ -20,8 +20,8 @@
 		"Configuration",
 		"Auto-completion"
 	],
-	"publisher": "hangxingliu",
-	"author": "hangxingliu",
+	"publisher": "ahmadalli",
+	"author": "ahmadalli",
 	"contributors": [
 		{
 			"name": "Adrian Dischinger",
@@ -183,10 +183,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hangxingliu/vscode-nginx-conf-hint"
+		"url": "https://github.com/ahmadalli/vscode-nginx-conf"
 	},
 	"bugs": {
-		"url": "https://github.com/hangxingliu/vscode-nginx-conf-hint/issues"
+		"url": "https://github.com/ahmadalli/vscode-nginx-conf/issues"
 	},
-	"homepage": "https://github.com/hangxingliu/vscode-nginx-conf-hint"
+	"homepage": "https://github.com/ahmadalli/vscode-nginx-conf"
 }
