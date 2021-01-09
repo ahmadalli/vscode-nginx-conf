@@ -1,6 +1,6 @@
 # Nginx config file hint(auto-completion) for VS Code
 
-[![.github/workflows/ci.yaml](https://github.com/hangxingliu/vscode-nginx-conf-hint/actions/workflows/ci.yaml/badge.svg)](https://github.com/hangxingliu/vscode-nginx-conf-hint/actions/workflows/ci.yaml)
+[![.github/workflows/ci.yaml](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml/badge.svg)](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml)
 
 
 A Visual Studio Code extension that helps you write Nginx configuration files. 
@@ -10,11 +10,11 @@ Many features in it include syntax highlight, auto-complete, in-editor documents
 ## Installation
 
 1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> or <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
-2. Search for `hangxingliu.vscode-nginx-conf-hint` and click the `Install` button.
+2. Search for `ahmadalli.vscode-nginx-conf-hint` and click the `Install` button.
 
 ## Screenshots
 
-![screenshots](https://raw.githubusercontent.com/hangxingliu/vscode-nginx-conf-hint/master/images/screenshots.gif)
+![screenshots](https://raw.githubusercontent.com/ahmadalli/vscode-nginx-conf/master/images/screenshots.gif)
 
 ## Features
 
@@ -66,7 +66,9 @@ Many features in it include syntax highlight, auto-complete, in-editor documents
 
 ## Author
 
-[LiuYue(hangxingliu)](https://github.com/hangxingliu)
+[LiuYue(hangxingliu)](https://github.com/hangxingliu): Author of the [Original Project](https://github.com/hangxingliu/vscode-nginx-conf-hint)
+
+[ahmadali shafiee](https://github.com/ahmadalli)
 
 ## Contributor
 
@@ -75,9 +77,8 @@ Many features in it include syntax highlight, auto-complete, in-editor documents
 
 
 [nginx-doc]: https://nginx.org/en/docs/
-[doc-script]: https://github.com/hangxingliu/vscode-nginx-conf-hint/blob/master/utils/download_hint_data.js
+[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/master/utils/download_hint_data.js
 [icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/master/nginx_logo.png
-[issues]: https://github.com/hangxingliu/vscode-nginx-conf-hint/issues
-[pr]: https://github.com/hangxingliu/vscode-nginx-conf-hint/pulls
-[changelog]: https://github.com/hangxingliu/vscode-nginx-conf-hint/blob/master/docs/CHANGELOG.md
-[paypal]: https://www.paypal.me/hangxingliu
+[issues]: https://github.com/ahmadalli/vscode-nginx-conf-hint/issues
+[pr]: https://github.com/ahmadalli/vscode-nginx-conf-hint/pulls
+[changelog]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/master/docs/CHANGELOG.md
