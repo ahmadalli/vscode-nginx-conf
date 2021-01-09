@@ -16,7 +16,8 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 ## Installation
 
 1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> or <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
-2. Search for `ahmadalli.vscode-nginx-conf-hint` and click the `Install` button.
+1. Search for `ahmadalli.vscode-nginx-conf` and click the `Install` button.
+1. Reload VSCode.
 
 ## Screenshots
 
