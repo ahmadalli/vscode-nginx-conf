@@ -1,4 +1,4 @@
-![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ahmadalli.vscode-nginx-conf)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ahmadalli.vscode-nginx-conf)](https://marketplace.visualstudio.com/items?itemName=ahmadalli.vscode-nginx-conf)
 
 # Nginx config file hint(auto-completion) for VS Code
 
