@@ -13,7 +13,7 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 ## Installation
 
 1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
-2. Search `nginx.conf hint`. Found this extension and click `Install` button.
+2. Search `ahmadalli.vscode-nginx-conf`. Found this extension and click `Install` button.
 3. Reload VSCode.
 
 ## Screenshots
