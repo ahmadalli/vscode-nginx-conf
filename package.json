@@ -65,29 +65,33 @@
 		"vscode": "^1.1.0"
 	},
 	"activationEvents": [
-		"onLanguage:NGINX",
+		"onLanguage:nginx",
 		"onLanguage:lua"
 	],
 	"contributes": {
 		"languages": [
 			{
-				"id": "NGINX",
+				"id": "nginx",
 				"aliases": [
-					"NGINX"
+					"NGINX Conf",
+					"NGINX",
+					"nginx"
 				],
 				"extensions": [
 					".conf",
 					"mime.types",
 					"fastcgi_params",
 					"scgi_params",
-					"uwsgi_params"
+					"uwsgi_params",
+					"nginx.conf",
+					".nginx"
 				],
 				"configuration": "./nginx.configuration.json"
 			}
 		],
 		"snippets": [
 			{
-				"language": "NGINX",
+				"language": "nginx",
 				"path": "./assets/snippets/nginx.json"
 			},
 			{
@@ -97,7 +101,7 @@
 		],
 		"grammars": [
 			{
-				"language": "NGINX",
+				"language": "nginx",
 				"scopeName": "source.nginx",
 				"path": "./src/syntax/nginx.tmLanguage",
 				"embeddedLanguages": {
@@ -147,7 +151,7 @@
 		"menus": {
 			"editor/context": [
 				{
-					"when": "!inOutput && resourceLangId == 'NGINX'",
+					"when": "!inOutput && resourceLangId == 'nginx'",
 					"command": "nginx-conf-hint.showDocument",
 					"group": "navigation"
 				}
