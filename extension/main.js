@@ -15,7 +15,7 @@ const nginxBeautifier = require("./nginxbeautifier.js");
 
 const DEFAULT_SYNTAX = 'original';
 
-let NGINX_LANGUAGE_ID = 'NGINX';
+let NGINX_LANGUAGE_ID = 'nginx';
 let DOCUMENT_SELECTOR = [NGINX_LANGUAGE_ID];
 
 let enableStrictCompletion = true;
