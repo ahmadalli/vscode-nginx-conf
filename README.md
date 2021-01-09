@@ -9,6 +9,10 @@ A Visual Studio Code extension that helps you write Nginx configuration files.
 Many features in it include syntax highlight, auto-complete, in-editor documents, embedded Lua block, and more.
 
 
+# Why Fork?
+
+The [upstream repo] seems to be left unmaintained and there was compatibility issue with `raynigon.nginx-formatter` extension because the upstream projects used `NGINX` as language id while the formatter extension uses `nginx` and therefore it's not possible to use both extensions on the same file
+
 ## Installation
 
 1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> or <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
@@ -83,21 +87,22 @@ about building/contributing this project
 
 ## Author
 
-[LiuYue(hangxingliu)](https://github.com/hangxingliu): Author of the [Original Project](https://github.com/hangxingliu/vscode-nginx-conf-hint)
+[LiuYue(hangxingliu)](https://github.com/hangxingliu): Author of the [Original Project][upstream-repo]
 
 [ahmadali shafiee](https://github.com/ahmadalli)
 
 ## Contributors
 
-- [Adrian Dischinger](https://github.com/AdrianDsg)
-- [Halil Özgür](https://github.com/halilim)
-- [@tiansin](https://github.com/tiansin)
-- [@latipun7](https://github.com/latipun7)
+- [Adrian Dischinger](https://github.com/AdrianDsg): Contributor of the [Original Project][upstream-repo]
+- [Halil Özgür](https://github.com/halilim): Contributor of the [Original Project][upstream-repo]
+- [@tiansin](https://github.com/tiansin): Contributor of the [Original Project][upstream-repo]
+- [@latipun7](https://github.com/latipun7): Contributor of the [Original Project][upstream-repo]
 
 
 [nginx-doc]: https://nginx.org/en/docs/
 [doc-script]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/master/utils/download_hint_data.js
 [icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/master/nginx_logo.png
-[issues]: https://github.com/ahmadalli/vscode-nginx-conf-hint/issues
-[pr]: https://github.com/ahmadalli/vscode-nginx-conf-hint/pulls
-[changelog]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/master/docs/CHANGELOG.md
+[issues]: https://github.com/ahmadalli/vscode-nginx-conf/issues
+[pr]: https://github.com/ahmadalli/vscode-nginx-conf/pulls
+[changelog]: https://github.com/ahmadalli/vscode-nginx-conf/blob/master/docs/CHANGELOG.md
+[upstream-repo]: https://github.com/hangxingliu/vscode-nginx-conf-hint
