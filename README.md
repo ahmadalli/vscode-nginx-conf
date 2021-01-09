@@ -1,7 +1,5 @@
 # Nginx config file hint(auto-completion) for VS Code
 
-[![npm Version](https://img.shields.io/npm/v/vscode-nginx-conf-hint.svg)](https://www.npmjs.com/package/vscode-nginx-conf-hint)
-
 An **experimental** extension.   
 And the hint data generated from [nginx document web page][nginx-doc] by [scripts][doc-script]    
 You can report bug or send a feature suggestion in [Github Issues Page][issues].
