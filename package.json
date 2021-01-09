@@ -2,7 +2,7 @@
 	"name": "vscode-nginx-conf",
 	"displayName": "NGINX Configuration Language Support",
 	"description": "NGINX Configuration syntax, hint and autocompletion",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"license": "GPL-3.0",
 	"icon": "images/icon.png",
 	"galleryBanner": {
