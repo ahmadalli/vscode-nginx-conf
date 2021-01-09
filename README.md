@@ -1,7 +1,6 @@
 # Nginx config file hint(auto-completion) for VS Code
 
 [![npm Version](https://img.shields.io/npm/v/vscode-nginx-conf-hint.svg)](https://www.npmjs.com/package/vscode-nginx-conf-hint)
-[![Build Status](https://travis-ci.org/hangxingliu/vscode-nginx-conf-hint.svg?branch=master)](https://travis-ci.org/hangxingliu/vscode-nginx-conf-hint)
 
 An **experimental** extension.   
 And the hint data generated from [nginx document web page][nginx-doc] by [scripts][doc-script]    
@@ -15,7 +14,7 @@ You can report bug or send a feature suggestion in [Github Issues Page][issues].
 
 ## Screenshots
 
-![screenshots](https://raw.githubusercontent.com/hangxingliu/vscode-nginx-conf-hint/master/images/screenshots.gif)
+![screenshots](https://raw.githubusercontent.com/ahmadalli/vscode-nginx-conf/master/images/screenshots.gif)
 
 ## Features
 
@@ -58,22 +57,22 @@ You can report bug or send a feature suggestion in [Github Issues Page][issues].
 
 ## Author
 
-[LiuYue(hangxingliu)](https://github.com/hangxingliu)
+[LiuYue(hangxingliu)](https://github.com/hangxingliu): Author of the [Original Project](https://github.com/hangxingliu/vscode-nginx-conf-hint)
+[ahmadali shafiee](https://github.com/ahmadalli)
 
 ## Contributor
 
-- [@tiansin](https://github.com/tiansin)
+- [@tiansin](https://github.com/tiansin): Contributor of the [Original Project](https://github.com/hangxingliu/vscode-nginx-conf-hint)
 
 
 
 [nginx-doc]: https://nginx.org/en/docs/
-[doc-script]: https://github.com/hangxingliu/vscode-nginx-conf-hint/blob/master/utils/download_hint_data.js
+[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf/blob/master/utils/download_hint_data.js
 [shanoor-syntax]: https://github.com/shanoor/vscode-nginx/blob/master/syntaxes/nginx.tmLanguage
 [sublime-syntax]: https://github.com/brandonwamboldt/sublime-nginx/blob/master/Syntaxes/nginx.tmLanguage
 [shanoor-nginx]: https://github.com/shanoor/vscode-nginx
 [sublime-nginx]: https://github.com/brandonwamboldt/sublime-nginx
 [icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/master/nginx_logo.png
-[issues]: https://github.com/hangxingliu/vscode-nginx-conf-hint/issues
-[pr]: https://github.com/hangxingliu/vscode-nginx-conf-hint/pulls
-[changelog]: https://github.com/hangxingliu/vscode-nginx-conf-hint/blob/master/CHANGELOG.md
-[paypal]: https://www.paypal.me/hangxingliu
+[issues]: https://github.com/ahmadalli/vscode-nginx-conf/issues
+[pr]: https://github.com/ahmadalli/vscode-nginx-conf/pulls
+[changelog]: https://github.com/ahmadalli/vscode-nginx-conf/blob/master/CHANGELOG.md

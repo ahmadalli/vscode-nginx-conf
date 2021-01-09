@@ -1,8 +1,8 @@
 {
-	"name": "vscode-nginx-conf-hint",
-	"displayName": "nginx.conf hint",
-	"description": "nginx.conf syntax, hint and autocompletion",
-	"version": "0.2.0",
+	"name": "vscode-nginx-conf",
+	"displayName": "NGINX Configuration Language Support",
+	"description": "NGINX Configuration syntax, hint and autocompletion",
+	"version": "0.1.0",
 	"license": "GPL-3.0",
 	"icon": "images/icon.png",
 	"galleryBanner": {
@@ -20,8 +20,8 @@
 		"auto-completion",
 		"configuration"
 	],
-	"publisher": "hangxingliu",
-	"author": "hangxingliu",
+	"publisher": "ahmadalli",
+	"author": "ahmadalli",
 	"main": "./extension/main",
 	"scripts": {
 		"test": "mocha ./test/*.js",
@@ -129,12 +129,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hangxingliu/vscode-nginx-conf-hint"
+		"url": "https://github.com/ahmadalli/vscode-nginx-conf"
 	},
 	"bugs": {
-		"url": "https://github.com/hangxingliu/vscode-nginx-conf-hint/issues"
+		"url": "https://github.com/ahmadalli/vscode-nginx-conf/issues"
 	},
-	"homepage": "https://github.com/hangxingliu/vscode-nginx-conf-hint",
+	"homepage": "https://github.com/ahmadalli/vscode-nginx-conf",
 	"__metadata": {
 		"id": "c3d3e8fb-c61d-4edf-8fb8-32298bc763f9",
 		"publisherDisplayName": "Liu Yue",
