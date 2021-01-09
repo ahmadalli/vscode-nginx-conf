@@ -1,3 +1,5 @@
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/ahmadalli.vscode-nginx-conf)
+
 # Nginx config file hint(auto-completion) for VS Code
 
 [![.github/workflows/ci.yaml](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml/badge.svg)](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml)
