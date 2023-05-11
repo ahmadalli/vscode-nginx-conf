@@ -59,6 +59,8 @@
 				"extensions": [
 					"nginx.conf",
 					".conf",
+					".conf.default",
+					".conf.template",
 					".nginx"
 				],
 				"configuration": "./nginx.configuration.json"
