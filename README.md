@@ -2,9 +2,12 @@
 
 # Nginx config file hint(auto-completion) for VS Code
 
-An **experimental** extension.   
-And the hint data generated from [nginx document web page][nginx-doc] by [scripts][doc-script]    
-You can report bug or send a feature suggestion in [Github Issues Page][issues].
+[![.github/workflows/ci.yaml](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml/badge.svg)](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml)
+
+
+A Visual Studio Code extension that helps you write Nginx configuration files. 
+Many features in it include syntax highlight, auto-complete, in-editor documents, embedded Lua block, and more.
+
 
 # Why Fork?
 
@@ -12,72 +15,78 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 
 ## Installation
 
-1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
-2. Search `ahmadalli.vscode-nginx-conf`. Found this extension and click `Install` button.
-3. Reload VSCode.
+1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> or <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
+1. Search for `ahmadalli.vscode-nginx-conf` and click the `Install` button.
+1. Reload VSCode.
 
 ## Screenshots
 
-![screenshots](https://raw.githubusercontent.com/ahmadalli/vscode-nginx-conf/master/images/screenshots.gif)
+![screenshots](https://raw.githubusercontent.com/ahmadalli/vscode-nginx-conf/main/images/screenshots.gif)
 
 ## Features
 
-1. provide highlight for Nginx configuration file.
-2. auto complete nginx directives and embedded variables
-3. hint directive default parameters
-4. hint directives syntax 
-5. nginx block snippets
-6. "Goto Nginx Document" for each directives and variables
+1. Syntax highlight for Nginx configuration file
+2. Support syntax of Lua block in Nginx configuration file
+3. Autocomplete directives, variables, location, media types, path, and more
+4. Hint directive arguments and usage
+5. Provide Nginx snippets
+6. Provide directives and snippets from [OpenResty](https://github.com/openresty/)
+7. Menu item "Goto Nginx Document" for display related Nginx document in the editor 
 
 ## Changelog
 
-### 0.1.0 (2018-07-09)
+### 0.3.0 (2021-11-20)
 
-1. syntax of nginx.conf is provided inside.
-	- `original` syntax is from [shanoor/vscode-nginx][shanoor-syntax] (**by default**)
-	- `sublime` syntax is from [sublime-nginx][sublime-syntax]
-	- you can switch it by configuration: `nginx-conf-hint.syntax`
-2. remove dependent extension `shanoor.vscode-nginx`.
-3. update Nginx hint data(directives and variables) to latest.
+:mega: There are a lot of updates in this version:
 
-[CHANGELOG.md][changelog]
+1. The syntax of the Nginx configuration file is updated completely
+	- Because the syntax from sublime extension and shanoor's repo are long time no updates. So I write a syntax generator for better highlight
+	- New syntax is generated from codes. You can find them in [generate-tmLanguage.ts](src/syntax/generate-tmLanguage.ts)
+	- New syntax supports embedded Lua block
+	- New syntax supports the directive statement in multiple lines
+	- And extension configuration `nginx-conf-hint.syntax` is removed
+2. Optimize hint data loader and document loader. They use less memory now and load data on demand
+3. This extension can run as a web extension. So you can use this extension on <https://vscode.dev/> now
+4. The coverage of auto-completion is more, and auto-completion is smarter
+	1. Auto completion is based on the context and grammar of the configuration now
+	2. Fix some wrong auto-completion items
+	3. Autocomplete named location
+	4. Autocomplete directive's named argument
+	5. Autocomplete media types 
+5. Add editor definition support for `location` directive
+6. Add new extension configuration `nginx-conf-hint.externalModules` for controlling enabled of external modules hint data
+7. The source code is rewritten by using Typescript
+
+[CHANGELOG.md](docs/CHANGELOG.md)   
+[更新日志](docs/CHANGELOG.zh-Hans.md)
 
 ## Declaration
 
-1. Nginx config syntaxes file from [sublime-nginx][sublime-nginx] repo and [shanoor/vscode-nginx][shanoor-nginx] repo 
-2. Icon image of this extension is from extension [nginx.conf][icon-nginx] 
-3. This extension is published under the [GPL-3.0 license](LICENSE)
+1. Icon image of this extension is from extension [nginx.conf][icon-nginx] 
+2. This extension is published under the [GPL-3.0 license](LICENSE)
 
-## Contributing to the Extension
-
-- useful nginx.conf snippets 
-- report bug via Github issues
-- helpful pull request
-- give me coffee to make extension better and better via [Paypal][paypal]
+## Contributing
 
 [Pull Request][pr] & [Issues][issues]
 
-[CONTRIBUTING.md](CONTRIBUTING.md)
+[CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
 ## Author
 
 [LiuYue(hangxingliu)](https://github.com/hangxingliu): Author of the [Original Project][upstream-repo]
+
 [ahmadali shafiee](https://github.com/ahmadalli)
 
 ## Contributor
 
 - [@tiansin](https://github.com/tiansin): Contributor of the [Original Project][upstream-repo]
-
+- [@latipun7](https://github.com/latipun7): Contributor of the [Original Project][upstream-repo]
 
 
 [nginx-doc]: https://nginx.org/en/docs/
-[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf/blob/master/utils/download_hint_data.js
-[shanoor-syntax]: https://github.com/shanoor/vscode-nginx/blob/master/syntaxes/nginx.tmLanguage
-[sublime-syntax]: https://github.com/brandonwamboldt/sublime-nginx/blob/master/Syntaxes/nginx.tmLanguage
-[shanoor-nginx]: https://github.com/shanoor/vscode-nginx
-[sublime-nginx]: https://github.com/brandonwamboldt/sublime-nginx
-[icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/master/nginx_logo.png
+[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/main/utils/download_hint_data.js
+[icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/main/nginx_logo.png
 [issues]: https://github.com/ahmadalli/vscode-nginx-conf/issues
 [pr]: https://github.com/ahmadalli/vscode-nginx-conf/pulls
-[changelog]: https://github.com/ahmadalli/vscode-nginx-conf/blob/master/CHANGELOG.md
+[changelog]: https://github.com/ahmadalli/vscode-nginx-conf/blob/main/docs/CHANGELOG.md
 [upstream-repo]: https://github.com/hangxingliu/vscode-nginx-conf-hint

@@ -1,0 +1,22 @@
+{
+	"nginx-conf-hint.enableStrictCompletion": false,
+	"files.associations": {
+		"*.conf.disabled": "NGINX"
+	},
+	"nginx-conf-hint.externalModules": ["lua","js"],
+	// "workbench.colorTheme": "Visual Studio Light",
+	"editor.tokenColorCustomizations": {
+		"[Solarized Light]": {
+			"textMateRules": [
+				{
+					"scope": [
+						"keyword.directive"
+					],
+					"settings": {
+						"foreground": "#0f5e72"
+					}
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,39 @@
+name: build-artifact
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Install and build
+        run: |
+          yarn install &&
+          yarn run build:utils &&
+          yarn run build:syntax &&
+          yarn run build:web-ext &&
+          yarn run build:desktop-ext &&
+          yarn run lint:eslint
+      - name: Build packages
+        run: |
+          bash ./scripts/build-npm-package.sh &&
+          yarn add --dev vsce &&
+          bash ./scripts/build-vscode-artifact.sh
+      - uses: actions/upload-artifact@v2
+        with:
+          name: vscode-extension
+          path: |
+            artifacts/vscode/*.vsix
+            artifacts/vscode/*.list
+      - uses: actions/upload-artifact@v2
+        with:
+          name: npm-package
+          path: |
+            artifacts/npm/*.tgz
+            artifacts/npm/*.list

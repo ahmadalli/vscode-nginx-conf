@@ -1,48 +1,56 @@
-# ignore archive files
+# this extension doesn't need any node modules
+# if I don't ignore node_modules, `vsce` will pack optional dependencies into the extension
+node_modules
+
+# vscode test web
+.vscode
+.vscode-test-web
+
+# github files
+.github
+
+# artifacts
+artifacts/npm
+artifacts/vscode
+artifacts/web-ext/*.map
+
+# documents
+docs
+
+# scripts and utils
+scripts
+src/extension/**/*.ts
+src/extension/**/*.js.map
+src/syntax/references
+src/syntax/*.ts
+src/syntax/*.js
+src/utils
+test
+
+# typescript files
+tsconfig.*.json
+
+# macos files
+.DS_Store
+._*
+.nmimrc
+
+# archive files and logs
 *.tar
 *.tgz
 *.7z
 *.zip
 *.vsix
-
-# ignore mark file about new syntax tip
-extension/new_syntax_tip_has_been_shown
-
-
-# unit test files
-test/**
-
-
-# vscode workspace configurations
-.vscode/**
-
-
-# example files
-example_files/**
-
-
-# type dependencies
-node_modules/@types/**
-
+*.log
 
 # cache files
-utils/cache
-utils/cache-**
-
-
-# utils
-utils/**
-
+cache
+cache-*
 
 # eslint
-.eslintrc.json
+.eslint*
 
 *.d.ts
 
 # screenshot image (because link of screenshot in README is under github)
 images/screenshots.gif
-
-
-# vscode typing files
-vscode.d.ts
-vscode.proposed.d.ts
