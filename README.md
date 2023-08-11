@@ -21,7 +21,7 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 
 ## Screenshots
 
-![screenshots](https://raw.githubusercontent.com/ahmadalli/vscode-nginx-conf/master/images/screenshots.gif)
+![screenshots](https://raw.githubusercontent.com/ahmadalli/vscode-nginx-conf/main/images/screenshots.gif)
 
 ## Features
 
@@ -101,9 +101,9 @@ about building/contributing this project
 
 
 [nginx-doc]: https://nginx.org/en/docs/
-[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/master/utils/download_hint_data.js
-[icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/master/nginx_logo.png
+[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/main/utils/download_hint_data.js
+[icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/main/nginx_logo.png
 [issues]: https://github.com/ahmadalli/vscode-nginx-conf/issues
 [pr]: https://github.com/ahmadalli/vscode-nginx-conf/pulls
-[changelog]: https://github.com/ahmadalli/vscode-nginx-conf/blob/master/docs/CHANGELOG.md
+[changelog]: https://github.com/ahmadalli/vscode-nginx-conf/blob/main/docs/CHANGELOG.md
 [upstream-repo]: https://github.com/hangxingliu/vscode-nginx-conf-hint
