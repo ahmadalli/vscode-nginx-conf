@@ -2,7 +2,7 @@
 
 # Nginx config file hint(auto-completion) for VS Code
 
-[![.github/workflows/ci.yaml](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml/badge.svg)](https://github.com/ahmadalli/vscode-nginx-conf-hint/actions/workflows/ci.yaml)
+[![.github/workflows/ci.yaml](https://github.com/ahmadalli/vscode-nginx-conf/actions/workflows/ci.yaml/badge.svg)](https://github.com/ahmadalli/vscode-nginx-conf/actions/workflows/ci.yaml)
 
 
 A Visual Studio Code extension that helps you write Nginx configuration files. 
@@ -75,7 +75,7 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 
 [LiuYue(hangxingliu)](https://github.com/hangxingliu): Author of the [Original Project][upstream-repo]
 
-[ahmadali shafiee](https://github.com/ahmadalli)
+[ahmadali shafiee](https://ahmadalli.rocks)
 
 ## Contributor
 
@@ -84,7 +84,7 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 
 
 [nginx-doc]: https://nginx.org/en/docs/
-[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf-hint/blob/main/utils/download_hint_data.js
+[doc-script]: https://github.com/ahmadalli/vscode-nginx-conf/blob/main/utils/download_hint_data.js
 [icon-nginx]: https://github.com/shanoor/vscode-nginx/blob/main/nginx_logo.png
 [issues]: https://github.com/ahmadalli/vscode-nginx-conf/issues
 [pr]: https://github.com/ahmadalli/vscode-nginx-conf/pulls

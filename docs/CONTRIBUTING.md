@@ -11,5 +11,5 @@ Remember `npm install` if you want to rebuilding hint data or developing extensi
 
 @todo
 
-[issues]: https://github.com/ahmadalli/vscode-nginx-conf-hint/issues
-[pr]: https://github.com/ahmadalli/vscode-nginx-conf-hint/pulls
+[issues]: https://github.com/ahmadalli/vscode-nginx-conf/issues
+[pr]: https://github.com/ahmadalli/vscode-nginx-conf/pulls
