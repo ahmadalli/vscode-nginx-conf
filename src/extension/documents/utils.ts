@@ -1,5 +1,5 @@
 export const nginxDocsScheme = 'nginx-doc';
-export const nginxDocsAuthority = 'hangxingliu.nginx-conf-hint';
+export const nginxDocsAuthority = 'ahmadalli.nginx-conf';
 
 export const enum NginxDocsType {
 	directive = 'directive',
