@@ -126,7 +126,7 @@
 			{
 				"language": "nginx",
 				"scopeName": "source.nginx",
-				"path": "./src/syntax/nginx.tmLanguage",
+				"path": "./out/syntax/nginx.tmLanguage",
 				"embeddedLanguages": {
 					"meta.embedded.block.lua": "lua"
 				}
