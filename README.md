@@ -13,6 +13,13 @@ Many features in it include syntax highlight, auto-complete, in-editor documents
 
 The [upstream repo][upstream-repo] seems to be left unmaintained and there was compatibility issue with `raynigon.nginx-formatter` extension because the upstream projects used `NGINX` as language id while the formatter extension uses `nginx` and therefore it's not possible to use both extensions on the same file
 
+## Known Issues
+
+### Formatting
+
+- There are some issues with the formatting functionality of this extension (#4, #7). As a workaround, you can use [`raynigon.nginx-formatter`](https://marketplace.visualstudio.com/items?itemName=raynigon.nginx-formatter) extension to format your nginx configuration files.
+  > This is not a complete solution, since the formatter extension also has some issues like [raynigon/vscode-nginx-formatter#207](https://github.com/raynigon/vscode-nginx-formatter/issues/207)
+
 ## Installation
 
 1. Click `Extension` button in left side of VSCode. (Shortcut: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> or <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>)
