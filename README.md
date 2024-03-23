@@ -17,7 +17,7 @@ The [upstream repo][upstream-repo] seems to be left unmaintained and there was c
 
 ### Formatting
 
-- There are some issues with the formatting functionality of this extension (#4, #7). As a workaround, you can use [`raynigon.nginx-formatter`](https://marketplace.visualstudio.com/items?itemName=raynigon.nginx-formatter) extension to format your nginx configuration files.
+- There are some issues with the formatting functionality of this extension ([#4](https://github.com/ahmadalli/vscode-nginx-conf/issues/4), [#7](https://github.com/ahmadalli/vscode-nginx-conf/issues/7)). As a workaround, you can use [`raynigon.nginx-formatter`](https://marketplace.visualstudio.com/items?itemName=raynigon.nginx-formatter) extension to format your nginx configuration files.
   > This is not a complete solution, since the formatter extension also has some issues like [raynigon/vscode-nginx-formatter#207](https://github.com/raynigon/vscode-nginx-formatter/issues/207)
 
 ## Installation
