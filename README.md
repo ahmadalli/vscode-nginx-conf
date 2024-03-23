@@ -9,7 +9,8 @@ A Visual Studio Code extension that helps you write Nginx configuration files.
 Many features in it include syntax highlight, auto-complete, in-editor documents, embedded Lua block, and more.
 
 > [!NOTE]  
-> This extension is a fork of [hangxingliu/vscode-nginx-conf-hint][upstream-repo]. This fork exists and is being maintains because there is compatibility issue with the [`raynigon.nginx-formatter`](https://marketplace.visualstudio.com/items?itemName=raynigon.nginx-formatter) extension which comes from the fact that the upstream projects uses `NGINX` as language id while the formatter extension uses `nginx` and it's not possible to have both extensions on the same file.
+> This extension is a fork of [hangxingliu/vscode-nginx-conf-hint][upstream-repo].  
+>This fork exists and is being maintains because there is compatibility issue with the [`raynigon.nginx-formatter`](https://marketplace.visualstudio.com/items?itemName=raynigon.nginx-formatter) extension which comes from the fact that the upstream projects uses `NGINX` as language id while the formatter extension uses `nginx` and it's not possible to have both extensions on the same file.
 
 ## Known Issues
 
